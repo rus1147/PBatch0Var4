@@ -18,11 +18,11 @@ namespace PractocaBatch4__Rus
 				OutputFormat outputFormat = new OutputFormat();
 				Impresora impresora = new Impresora();
 				Sorting sorting = new Sorting();
-				//string inputFilePath = args[0];
-				//string displayFormat = args[1];
+				string inputFilePath = args[0];
+				string displayFormat = args[1];
 
-				string inputFilePath = @"C:\Users\Ruslan\Programacion\PracticaBatch4\PBatch0Var4-master\txt\archivo.txt";
-				string displayFormat = "shortformat";
+				//string inputFilePath = @"C:\Users\Ruslan\Programacion\PracticaBatch4\PBatch0Var4-master\txt\archivo.txt";
+				//string displayFormat = "shortformat";
 
 				List<Registro> listaRegistros = lectorInput.LeerInput(inputFilePath);
 				sorting.Ordenamiento(listaRegistros);
